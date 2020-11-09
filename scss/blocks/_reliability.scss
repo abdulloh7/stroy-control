@@ -1,0 +1,91 @@
+.reliability {
+  padding-bottom: 144px;
+}
+
+.reliability__heading {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #212B31;
+  margin-bottom: 17px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 197px;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    width: 42px;
+    height: 40px;
+    display: block;
+    background-image: url("../img/Vector\ \(3\).svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 29px;
+    left: 188px;
+  }
+}
+
+.reliability__text {
+  margin: 0;
+  margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 857px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #72787D;
+}
+
+.reliability-item {
+  margin-right: 33px;
+  max-width: 332px;
+}
+
+.reliability__list {
+  margin-bottom: 62px;
+  max-width: 1065px;
+}
+
+.reliability__botwrapper {
+  max-width: 1056px;
+  display: flex;
+  align-items: center;
+  background-color: #F6F8F9;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  padding: 49px 40px;
+}
+
+.reliability__botwrapper-text {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #212B31;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/hands-icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-right: 24px;
+  }
+}

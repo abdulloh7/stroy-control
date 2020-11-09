@@ -1,0 +1,39 @@
+.inform-item {
+  max-width: 325px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &::before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    background-image: url("../img/efficiency.svg");
+    background-repeat: no-repeat;
+    background-position: center center ;
+    margin-bottom: 20px;
+  }
+}
+
+.inform-item__heading {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #212B31;
+  margin-bottom: 10px;
+}
+
+.inform-item__text {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #72787D;
+}

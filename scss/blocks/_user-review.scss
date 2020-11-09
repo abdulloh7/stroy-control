@@ -1,0 +1,40 @@
+.user-review__quote {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 48px;
+  color: #212B31;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.user-review__user {
+  display: flex;
+  align-items: center;
+}
+
+.user-review__username {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212B31;
+  margin: 0;
+  margin-bottom: 1px;
+}
+
+.user-review__user-job {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #72787D;
+  margin: 0;
+}
+
+.user-review__img {
+  margin-right: 8px;
+}

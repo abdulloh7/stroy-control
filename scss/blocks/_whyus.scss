@@ -1,0 +1,85 @@
+
+
+.whyus__title {
+  max-width: 681px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 55px;
+}
+
+.whyus__header {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #212B31;
+  margin: 0;
+  margin-bottom: 17px;
+}
+
+.whyus__desc {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #212B31;
+}
+
+.whyus__flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 127px;
+}
+
+.whyus__list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  max-width: 458px;
+  // margin-right: 78px;
+}
+
+.whyus__list-item {
+  margin-bottom: 30px;
+}
+
+.whyus__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.whyus__reviews {
+  max-width: 614px;
+  background: #F6F8F9;
+  border-radius: 5px;
+  padding-top: 60px;
+  padding-left: 87px;
+  padding-bottom: 56px;
+  padding-right: 92px;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    width: 104px;
+    height: 80px;
+    background-image: url("../img/marks-bg.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 45px;
+    left: 41px;
+  }
+}
+
+.whyus__reviews-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 28px;
+}

@@ -1,0 +1,43 @@
+.partnors {
+  max-width: 672px;
+  margin-bottom: 149px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.partnors__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnor__item {
+  max-width: 126px;
+  margin-right: 98px;
+  margin-bottom: 41px;
+}
+
+.partnor__item:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.partnor__item-desc {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #72787D;
+  margin: 0;
+  margin-top: 44px;
+}
+
+.partnor__item-img:nth-child(2) {
+  margin-bottom: 54px;
+}

@@ -1,0 +1,40 @@
+.construction-info {
+  display: flex;
+
+  &::before{
+    width: 8px;
+    height: 8px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    margin-right: 32px;
+    margin-top: 5px;
+  }
+
+}
+
+.construction-info__inner {
+  max-width: 470px;
+}
+
+.construction-info__heading {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.construction-info__text {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.75);
+}

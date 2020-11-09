@@ -1,0 +1,13 @@
+.nav-item__link {
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #72787D;
+}
+
+.nav-item-active .nav-item__link {
+  color: #036FC7;
+}

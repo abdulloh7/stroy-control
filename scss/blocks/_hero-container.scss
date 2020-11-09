@@ -1,0 +1,11 @@
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 26px;
+  padding-bottom: 31px;
+}
+
+.hero-container__img {
+  display: block;
+}

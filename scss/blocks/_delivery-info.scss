@@ -1,0 +1,106 @@
+.delivery-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 340px;
+  position: relative;
+  z-index: 1;
+
+
+  &::before {
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    content: "";
+    transition: width 0.3s ease;
+  }
+
+  &--concrete::before {
+    background-image: url("../img/beton.png");
+  }
+
+  &--recycling::before {
+    background-image: url("../img/utilizatsiya.png");
+  }
+
+  &--formwork::before {
+    background-image: url("../img/opalubka.png");
+  }
+
+  &--panel::before {
+    background-image: url("../img/paneli.png");
+  }
+
+  &--facade::before {
+    background-image: url("../img/fasad.png");
+  }
+
+  &--otdel::before {
+    background-image: url("../img/otdelka.png");
+  }
+
+  &--stair::before {
+    background-image: url("../img/stroitel.png");
+  }
+
+  &--equipment::before {
+    background-image: url("../img/obarudovanie.png");
+  }
+
+  &--electricity::before {
+    background-image: url("../img/electric.png");
+  }
+}
+
+.delivery-info__inner {
+}
+
+.delivery-info__heading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212B31;
+  margin: 0;
+  margin-bottom: 11px;
+}
+
+.delivery-info__description {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #72787D;
+  margin: 0;
+  max-width: 270px;
+}
+
+
+@media only screen and (max-width: 750px) {
+
+  .delivery-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+  }
+
+  .delivery-info__inner {
+    text-align: center;
+  }
+
+  .delivery-info__description {
+    max-width: 550px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .delivery-info {
+    max-width: 350px;
+  }
+}
